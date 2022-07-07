@@ -4,13 +4,22 @@
 https://crmef-learn.netlify.app/
 
 #requirements
--apache guacamole
-'''bash
+- apache guacamole :
+```bash
 wget -O guac-install.sh https://git.io/fxZq5
 chmod +x guac-install.sh
 ./guac-install.sh
 
-'''
+```
+- Proxmox : 
+
+
+1- Prerequisites
+
+- A physical or dedicated server.
+- 64bit CPU.
+- At least 1GB of RAM (and additional RAM needed for guests).
+- A USB stick with at least 1GB.
 
 
 
