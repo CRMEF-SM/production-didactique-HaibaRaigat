@@ -4,7 +4,9 @@
 https://crmef-learn.netlify.app/
 
 ## requirements
-- apache guacamole :
+- apache guacamole : Apache Guacamole is a clientless remote
+desktop gateway. It supports standard
+protocols like VNC, RDP, and SSH.
 ```bash
 wget -O guac-install.sh https://git.io/fxZq5
 chmod +x guac-install.sh
@@ -12,7 +14,7 @@ chmod +x guac-install.sh
 
 ```
 - Proxmox :
-Proxmox Virtual Environment is an open source server virtualization management solution based
+ Virtual Environment is an open source server virtualization management solution based
 on QEMU/KVM and LXC. You can manage virtual machines, containers, highly available clusters,
 storage and networks with an integrated, easy-to-use web interface or via CLI.
 
@@ -23,7 +25,6 @@ storage and networks with an integrated, easy-to-use web interface or via CLI.
 - 64bit CPU.
 - At least 1GB of RAM (and additional RAM needed for guests).
 - A USB stick with at least 1GB.
-
 
 
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8101389&assignment_repo_type=AssignmentRepo)
